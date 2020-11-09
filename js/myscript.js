@@ -11,12 +11,13 @@ console.log("oggetto", studente);
 
 // Stampare a schermo attraverso il for in tutte le proprietà.
 for (var key in studente){
-  console.log(studente[key]);
+  console.log(key + ":" + studente[key]);
 }
 
 
 // SECONDA PARTE*************
 // - Creare un array di oggetti di studenti. Ciclare su tutti gli studenti e stampare per ognuno nome e cognome
+
 
 
 
